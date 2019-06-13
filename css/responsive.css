@@ -1,0 +1,215 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  #main-header nav {
+    flex-direction: column;
+  }
+
+  #main-header ul li:last-child {
+    display: none;
+  }
+
+  #main-header ul li:nth-child(2) {
+    display: none;
+  }
+
+  #main-header ul {
+    margin-top: 1rem;
+  }
+
+  #main-header .header-content {
+    height: unset;
+    text-align: center;
+  }
+
+  #main-header .header-content p {
+    display: none;
+  }
+
+  #statistic .container {
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+
+  #typeing .sec-img {
+    display: none;
+  }
+
+  #our-growth .d-flex-row {
+    flex-direction: column;
+  }
+
+  #our-growth .d-flex-row a {
+    margin-bottom: 2rem;
+  }
+
+  #our-growth .d-flex-row>div {
+    margin-top: 2rem;
+  }
+
+  #our-growth {
+    padding-bottom: 1rem;
+  }
+
+  section#our-product {
+    margin: 1rem;
+  }
+
+  section#our-product .d-flex-row {
+    flex-direction: column;
+  }
+
+  section#our-product .card {
+    margin-bottom: 2rem;
+  }
+
+  section#our-statistic .d-flex-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section#our-statistic .d-flex-row .card {
+    margin-bottom: 2rem;
+  }
+
+  section#what-we-do {
+    padding: 2rem;
+  }
+
+  section#what-we-do .container {
+    flex-direction: column;
+  }
+
+  section#what-we-do .card {
+    margin-bottom: 2rem;
+  }
+
+  footer#main-footer-top .flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer#main-footer-top .flex .item {
+    margin-bottom: 1rem;
+  }
+
+  #footer-bottom .flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #footer-bottom .flex .item.flex {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #main-header nav {
+    flex-direction: column;
+  }
+
+  #main-header ul li:last-child {
+    display: none;
+  }
+
+  #main-header ul li:nth-child(2) {
+    display: none;
+  }
+
+  #main-header .header-content {
+    text-align: center;
+  }
+
+  #main-header ul {
+    margin-top: 1rem;
+  }
+
+  #statistic .container {
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+
+  #typeing .container {
+    flex-direction: column;
+  }
+
+  #typeing .container img {
+    min-width: 100%;
+  }
+
+  #statistic .container .card {
+    margin-bottom: 1rem;
+  }
+
+  #our-growth .d-flex-row {
+    flex-direction: column;
+  }
+
+  #our-growth .d-flex-row a {
+    margin-bottom: 2rem;
+  }
+
+  #our-growth .d-flex-row>div {
+    margin-top: 2rem;
+  }
+
+  #our-growth {
+    padding-bottom: 1rem;
+  }
+
+  section#our-product .d-flex-row {
+    flex-wrap: wrap;
+  }
+
+  section#our-product .card {
+    margin-bottom: 2rem;
+  }
+
+  section#our-statistic .d-flex-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section#what-we-do .container {
+    flex-wrap: wrap;
+  }
+
+  section#what-we-do .container>div {
+    flex-basis: 45%;
+    padding: 1rem;
+  }
+
+  section#what-we-do {
+    padding: 2rem;
+  }
+
+  footer#main-footer-top .flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer#main-footer-top .flex .item {
+    margin-bottom: 1rem;
+  }
+
+  #footer-bottom .flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #footer-bottom .flex .item.flex {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #typeing .container {
+    flex-direction: column;
+  }
+  #typeing .container img {
+    min-width: 100%;
+  }
+  #statistic .container {
+    margin-top: unset;
+  }
+}
+
+@media only screen and (min-width: 992px) {}
